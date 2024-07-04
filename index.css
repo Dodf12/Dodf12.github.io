@@ -14,67 +14,31 @@
   /*Making sure the nav bar is formatted correctly*/
   .navbar
   {
-    padding: 5px;
-    border: 10px;
-    align-items: center;
-    background-color: #c2e6c1;
-
+    position:fixed;
+    bottom:  0;
+    background-color: rgb(196, 129, 29);
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 1px solid rgb(96, 18, 223)
   }
-
-  /*Class for the making the quicklinks area a grid*/
-  .navgridcontainer 
+  /*Making sure the navigation items are formatted properly*/
+  .navitems
   {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #c2e6c1;
+    border-right: 8px solid rgb(114, 114, 19);
+    border-left: 8px solid rgb(114, 114, 19);
+    display: inline;
+    font-size: larger;
   }
 
-  /*Class for managing the quicklinks grid items*/
-  .navgriditems
-  {
-    text-align: center;
-    border-radius: 1px solid rgba(209, 11, 11, 0.75);
 
-  }
   
   /* Fixes size of logo images in the navigation area*/
   .logoimages
   {
-    width: 20px;
-    height:20px;
+    width: 30px;
+    height:30px;
+    center: 0;
+
   }
 
-
-
-  
-  /*Navigation*/
-
-/*General*/
-body * {
-    font-family: "Times New Roman", sans-serif; 
-  }
-  
-  html
-  {
-    background: rgba(0, 0, 0, 0.75) ;
-  }
-  body {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-  }
-  
-  h1
-   {
-    font-weight: bold; color: #daa618; 
-    font-family: "Times", ;
-  }
-  
-  li {
-  width: 50px;
-  padding: 10px;
-  margin: 10px;
-  background-color: #c2e6c1;
-  }
-  
-  
