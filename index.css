@@ -15,22 +15,43 @@
   .navbar
   {
     position:fixed;
+    display: flex;
     bottom:  0;
     background-color: rgb(196, 129, 29);
     width: 100%;
-    padding: 10px 10px;
     font-size: 18px;
-    border: 1px solid rgb(96, 18, 223)
-  }
-  /*Making sure the navigation items are formatted properly*/
-  .navitems
-  {
-    border-right: 8px solid rgb(114, 114, 19);
-    border-left: 8px solid rgb(114, 114, 19);
-    display: inline;
-    font-size: larger;
+    border: 1px solid rgb(96, 18, 223);
+    align-items: center;
   }
 
+  /*For the links in the navbar*/
+  .navbar a
+  {
+    color: rgb(13, 83, 52);
+    text-decoration: none;
+    display: block;
+  }
+  /*Changes background color when hovering over*/
+  .navbar :hover
+  {
+    background-color: rgb(73, 6, 150);
+    color: red;
+
+  }
+  /*Making sure the navigation items are formatted properly*/
+  .navitems 
+  {
+ 
+    display: block;
+    font-size: larger;
+    padding-right: 8px;
+    padding-left: 8px;
+    position: center;
+  }
+
+  /*For headings and titles*/
+
+  
 
   
   /* Fixes size of logo images in the navigation area*/
@@ -38,7 +59,7 @@
   {
     width: 30px;
     height:30px;
-    center: 0;
+    position: center;
 
   }
 
